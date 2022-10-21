@@ -21,4 +21,12 @@ public class TourPackage implements Serializable {
     private Long id;
     private String code;
     private String name;
+
+    public TourPackage(String code, String name) {
+        this.name=name;
+        this.code=code;
+    }
+
+
+
 }
